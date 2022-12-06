@@ -1,0 +1,51 @@
+// ancho alto
+
+@mixin medidas ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    
+}
+
+
+
+// body
+@mixin estiloBody{
+    background-image: url(../img/background.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+// logo home
+
+@mixin home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+
+// mq header
+
+@mixin navbar {
+    display: flex;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    justify-content: flex-end;
+}
+
+@mixin header{
+        padding: 1rem;
+        margin: 1rem;
+}
+
+// mq body 
+
+@mixin body {
+    
+    height: 860px;
+    background-color: black;
+}

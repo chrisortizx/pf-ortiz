@@ -1,0 +1,42 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Girassol', cursive;
+    color: white;
+}
+
+// import secundarios
+
+@import "utilidades/_mixin";
+@import "utilidades/_extend";
+@import "contenedores/header";
+@import "contenedores/navbar";
+@import "contenedores/body";
+@import "contenedores/media";
+
+// body
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        div{
+            img{
+                width: 10rem;
+                height: 50rem;
+            }
+        }
+}
+
+.mapas{
+    width: 2rem;
+    height: 20rem;
+    div{
+        padding: 20rem;
+        width: 20rem;
+        height: 40rem;
+    }
+}

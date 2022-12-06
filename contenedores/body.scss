@@ -1,0 +1,35 @@
+/* estilos body */
+
+body{
+    @include estiloBody;
+}
+
+/* estilos logo home */
+
+.logo-home{
+    @include home;
+    img{
+        @include medidas(50rem, auto)
+    }
+}
+
+/* estilo row */
+
+.row{
+    background: rgba(0, 0, 0, 40%);
+    background-color: rgba(0,0,0,0.5);
+    padding: 40px;
+    margin: 25px;
+}
+
+/* estilos span */
+
+span{
+    color: rgb(114, 5, 5);
+    font-size: 2rem;
+}
+
+p{
+    font-size: 20px;
+    text-shadow: 4px 2px 5px black;
+}

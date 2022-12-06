@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 1rem 10%;
+}
+
+/* logo header */
+
+.header{
+    .logo-nav{
+        img{
+            padding-top: 20px;
+            height: 90px;
+            width: auto;
+            cursor: crosshair;
+        }
+    }
+}
+
+header{
+    div{
+        img{
+            transition: 0.5s;
+        }
+    }
+}
+
+.header{
+    .logo-nav{
+        img:hover{
+            transform: scale(1.2);
+            width: auto;
+            transition: 0.8s;
+        }
+    }
+}
+

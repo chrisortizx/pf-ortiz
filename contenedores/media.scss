@@ -1,0 +1,88 @@
+/* mq */
+
+@media (max-width:830px) and (min-width:586px){
+    
+/* estilos header */
+
+header{
+    @include header;
+    .nav-style{
+        @include navbar;
+        a{
+            font-size: 1.25rem;
+        }
+    }
+}
+
+  /* estilos body */
+
+  .logo-home{
+    img{
+        @include medidas(550px, 350px);
+    }
+    }
+}
+@media (max-width:585px) and (min-width:391px){
+
+    /* estilos header */
+
+    header{
+        @include header;
+        .nav-style{
+            @include navbar;
+            a{
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+
+
+/* estilos body */
+
+.logo-home{
+    img{
+        @include medidas(500px, 100%);
+    }
+}
+
+body{
+    @include body;
+}
+
+/*estilos footer */
+
+footer{
+    .footer{
+        margin-top: 59px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:390px){
+
+/* estilo body */
+    .logo-home{
+        img{
+            @include medidas(350px, 100%);
+            margin-left: 10px;
+        }
+    }
+}
+
+body{
+    @include body;
+}
+
+/* estilo header */
+
+.header{
+    padding: 0.5;
+    .nav-style{
+        @include navbar;
+        a{
+            font-size: 0.6rem;
+        }
+    }
+}
+}
