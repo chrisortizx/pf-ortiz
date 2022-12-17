@@ -1,5 +1,5 @@
-/* ignorar node node_modules */
+/* ignorando node */
 
 node_modules/
- 
- .gitignore
+
+.gitignore
